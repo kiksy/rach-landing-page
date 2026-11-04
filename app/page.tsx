@@ -8,7 +8,7 @@ export default function Page() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geological:wght@300;400;500;600;700&display=swap" />
       </head>
 
       <style dangerouslySetInnerHTML={{ __html: `
@@ -22,8 +22,8 @@ export default function Page() {
           --orange-ink:#FFFFFF;
           --line:#E9C6B7;
           --card:#FFFFFF;
-          --display:"Bagel Fat One","Arial Black",Impact,system-ui,sans-serif;
-          --body:"Montserrat","Helvetica Neue",Arial,system-ui,sans-serif;
+          --display:"Dh Caloins", system-ui, sans-serif;
+          --body:"Geological", system-ui, sans-serif;
           --step-0:1rem; --step-1:1.2rem; --step-2:1.5rem; --step-3:clamp(1.8rem,4.5vw,2.6rem); --step-4:clamp(2.6rem,8vw,4.6rem);
         }
         @media (prefers-color-scheme: dark){
@@ -36,7 +36,7 @@ export default function Page() {
           --blush:#2E1B15; --sky:#1C2730; --paper:#24150F; --ink:#FBE9E1; --ink-soft:#D9BCAF;
           --orange:#FF8A4C; --orange-ink:#24150F; --line:#4A3127; --card:#33201A; color-scheme:dark;
         }
-        *{box-sizing:border-box}
+        html { box-sizing: border-box; }
         body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:var(--step-0);line-height:1.65;margin:0}
         .band{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
         .band.blush{background:var(--blush)} .band.sky{background:var(--sky)} .band.paper{background:var(--paper)}
@@ -154,7 +154,6 @@ export default function Page() {
           <div className="stack narrow">
             <p>I'm a qualified personal trainer and British Powerlifting coach, and I'm living this too. Perimenopause, anxiety, broken sleep, a body that suddenly stopped playing by the old rules. I get it, because I'm in it.</p>
             <p>I started The Strength Shift because women over 40 are drowning in conflicting advice. Eat less. Do more cardio. Try this fad. None of it works long term, and most of it leaves you exhausted. I wanted to cut through all of that and give women a clear, simple plan that actually gets results.</p>
-            <p>Nutrition is led by our Head Coach <strong>Rosie</strong>, a Nutritionist and Food Behaviour Coach, so you get expert support on the food side too.</p>
           </div>
         </div>
       </section>
@@ -173,14 +172,14 @@ export default function Page() {
               <span>A Zoom workout class</span><span>A generic app you'll forget about</span><span>A copy-and-paste meal plan</span><span>A 6-week challenge</span>
             </div>
           </div>
-          <p className="narrow"><strong>It is:</strong> me writing a training plan just for you, which lives in an app on your phone. You train at your own gym (or at home), at times that suit you. Every exercise has a video showing you how to do it. You log what you lift, and I can see it all. You message me whenever you need me, and every week we check in so I can adjust things. You get everything a PT gives you, minus the bit where you have to book a slot and pay for an hour of someone counting your reps.</p>
+          <p className="narrow"><strong>It is:</strong> me writing a training plan just for you, which lives in an app on your phone. You train at your own gym, at times that suit you. Every exercise has a video showing you how to do it. You log what you lift, and I can see it all. You message me when you need me, and every week we check in so I can adjust things. You get everything a PT gives you, minus the bit where you have to book a slot and pay for an hour of someone counting your reps.</p>
           <div className="stack">
             <h3>What a week looks like</h3>
             <ol className="week">
-              <li><span className="when">Any day</span><b>Open the app</b><p>Your session is waiting, with the exercises, sets, reps and weights all set out. No more wandering round the gym wondering what to do.</p></li>
-              <li><span className="when">2–4 times a week</span><b>Train with a plan</b><p>Follow your session, watch the demo videos if you need them, and log your weights. Send me a video if you want a form check.</p></li>
-              <li><span className="when">Every day</span><b>Message me</b><p>Stuck on an exercise? Eating out tonight? Feeling rubbish? Message me on WhatsApp or in the app. You're never on your own.</p></li>
-              <li><span className="when">Every week</span><b>Check in</b><p>We look at your strength, measurements, sleep, stress and energy together, and I tweak your plan so you're never more than 7 days from a course correction.</p></li>
+              <li><span className="when">Any day</span><b>Open the app</b><p>Your session is waiting, with the exercises, sets and reps all set out. No more wandering round the gym wondering what to do.</p></li>
+              <li><span className="when">2–4 times a week</span><b>Train with a plan</b><p>Follow your session, watch the demo videos if you need them, and log your weights. Send your coach a video if you want a form check.</p></li>
+              <li><span className="when">When needed</span><b>Message us</b><p>Stuck on an exercise? Eating out? Feeling rubbish? Message us on WhatsApp or in the app. You're never on your own.</p></li>
+              <li><span className="when">Every week</span><b>Check in</b><p>We look at your strength, measurements, sleep, stress and energy together, and tweak your plan so you're never more than 7 days from a course correction.</p></li>
             </ol>
           </div>
         </div>
@@ -223,7 +222,7 @@ export default function Page() {
         <div className="wrap">
           <div className="stack narrow">
             <p className="eyebrow">What you actually get</p>
-            <h2>Four pillars, one coach who gives a damn</h2>
+            <h2>Three strong pillars</h2>
           </div>
           <div className="pillars">
             <article className="pillar">
@@ -237,7 +236,7 @@ export default function Page() {
             </article>
             <article className="pillar">
               <h3>No Bullshit Nutrition</h3>
-              <p className="who">Led by Head Coach Rosie</p>
+            
               <ul>
                 <li>Personalised nutrition targets. Nothing is off limits.</li>
                 <li>Flexible fuelling, so dinners out and a glass of wine still fit.</li>
@@ -249,18 +248,18 @@ export default function Page() {
               <h3>Seen &amp; Supported</h3>
               <ul>
                 <li>A weekly 1:1 check-in.</li>
-                <li>Direct messaging with your coach, every day.</li>
+                <li>Direct messaging with your coach.</li>
                 <li>Tracking for strength, measurements, sleep, stress and energy.</li>
                 <li>Goal setting and habit tracking for small daily wins.</li>
                 <li>If something isn't working, we change it quickly.</li>
               </ul>
             </article>
             <article className="pillar">
+              <h3>Bonus</h3>
               <h3>Feminine Power</h3>
               <ul>
-                <li>The Strong Girls Squad WhatsApp group: women who get it, cheering each other on.</li>
+                <li>A community of women who get it, cheering each other on.</li>
                 <li>Monthly squad Q&amp;As.</li>
-                <li>Local in-person workshops and meet-ups (clients stretch from Devon to the Orkney Islands, and lots are local to Dorset).</li>
               </ul>
             </article>
           </div>
@@ -272,7 +271,7 @@ export default function Page() {
               <li>Have the energy for a Friday night out, and still make progress.</li>
               <li>Feel like you again. Maybe more than ever.</li>
             </ul>
-            <p className="narrow">Plus a coach who's in perimenopause too, who sees you and actually cares where you're going.</p>
+            <p className="narrow">Plus a coach who sees you and actually cares where you're going.</p>
           </div>
         </div>
       </section>
