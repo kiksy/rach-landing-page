@@ -279,32 +279,17 @@ export default function Page() {
       {/* TIMELINE + SHIFT */}
       <section className="band paper" id="journey">
         <div className="wrap">
-          <div className="stack narrow">
-            <p className="eyebrow">Your first four months</p>
+          <div className="stack narrow">            
             <h2>What the shift looks like</h2>
             <p>Every woman is different, but this is the path most of my clients follow.</p>
           </div>
           <ol className="months">
-            <li><span className="m">M1</span><b>Plan &amp; routine</b><p>You've got a plan, a routine and better technique. Energy starts to lift.</p></li>
-            <li><span className="m">M2</span><b>Strength gains</b><p>The numbers start going up. Many clients notice better sleep and mood.</p></li>
-            <li><span className="m">M3</span><b>Visible change</b><p>Clothes fit differently and the habits are sticking without a fight.</p></li>
-            <li><span className="m">M4</span><b>Strong &amp; independent</b><p>Strong, confident, and you understand what works for your body.</p></li>
+            <li><b>Plan &amp; routine</b><p>You've got a plan, a routine and better technique. Energy starts to lift.</p></li>
+            <li><b>Strength gains</b><p>The numbers start going up. Many clients notice better sleep and mood.</p></li>
+            <li><b>Visible change</b><p>Clothes fit differently and the habits are sticking without a fight.</p></li>
+            <li><b>Strong &amp; independent</b><p>Strong, confident, and you understand what works for your body.</p></li>
           </ol>
-          <div className="tablewrap">
-            <table className="shift">
-              <thead><tr><th scope="col">Before</th><th scope="col">After</th></tr></thead>
-              <tbody>
-                <tr><td>No plan, just turning up</td><td>Three focused strength sessions a week</td></tr>
-                <tr><td>Machines and light weights</td><td>Confident with barbells</td></tr>
-                <tr><td>Eating less and less</td><td>Eating properly and still seeing results</td></tr>
-                <tr><td>Weight creeping on around the middle</td><td>Losing fat, clothes fitting better</td></tr>
-                <tr><td>Exhausted</td><td>More energy, better sleep</td></tr>
-                <tr><td>Confused by all the advice</td><td>Understands what actually works</td></tr>
-                <tr><td>Anxious and invisible</td><td>Confident and proud</td></tr>
-                <tr><td>Doing it alone</td><td>Part of a squad</td></tr>
-              </tbody>
-            </table>
-          </div>
+          
         </div>
       </section>
 
@@ -428,17 +413,17 @@ export default function Page() {
             </article>
             <article className="feature">
               <h3>How much does it cost?</h3>
-              <p>The Strength Shift is a bespoke coaching package, so there are a few options depending on how much support you want and which coach you work with. We'll go through them together on our call so you can choose what's right for you.</p>
+              <p>The Strength Shift is a bespoke coaching package, so there are a few options depending on how much support you want and which coach you work with. That’s why I don’t put one fixed price here. We’ll go through the options together on our call so you can choose what’s right for you.</p>
               <p>To give you an idea of value, compare it with a personal trainer:</p>
               <div className="compare">
-                <div><b>A PT</b><span>Around £40–£60+ for one hour. One session a week adds up to about £160–£240 a month for four hours of support, and you're on your own the rest of the time.</span></div>
-                <div><b>The Strength Shift</b><span>A plan for every session, nutrition coaching, a weekly 1:1 check-in, daily messaging and the squad. Support 7 days a week, for less than you'd expect.</span></div>
+                <div><b>A PT</b><span>Around £40–£60+ for one hour. One session a week adds up to about £160–£240 a month. That’s four hours of support focused only on training, and you’re on your own the rest of the time.</span></div>
+                <div><b>The Strength Shift</b><span>For around the same monthly cost as a weekly PT, you get a whole team in your corner, 7 days a week. You’ll have a bespoke plan for every session, so you walk into the gym knowing exactly what to do. Nutrition coaching, weekly 1:1 check-in and direct messaging mean you’re never guessing. And the team is there to cheer you on every step of the way. We don’t just look after the hour you spend in the gym. We work on your training, food, habits and confidence, so you feel strong and like yourself again.</span></div>
               </div>
             </article>
             <article className="feature">
               <h3>Why is there a 4-month minimum?</h3>
               <p>If I wanted to be rich, I'd take anyone on for one month. But I don't want your money for a month. I want you to get real results.</p>
-              <p>Real change takes time. Month one is learning the plan and building a routine. The strength, the shape change and the confidence come in months two, three and four, and that's when the habits stick for good. Four months gives us time to do this properly, so you finish strong, confident and independent.</p>
+              <p>Real change takes time. Month one is learning the plan and building a routine. The strength, the shape change and the confidence come in months two, three and four, and that's when the habits stick for good.A minimum commitment of Four months  gives us time to do this properly, so you finish strong, confident and independent.</p>
             </article>
             <article>
               <h3>What if life gets in the way and I miss a week?</h3>
@@ -459,8 +444,8 @@ export default function Page() {
             <p className="eyebrow">What happens next</p>
             <h2>Your call with me</h2>
             <p>It's a relaxed chat about where you are now, where you want to be, and whether The Strength Shift is the right fit for you. Come as you are.</p>
-            <p><strong>Haven't booked yet?</strong> Reply to my message with <em className="o"><strong>SHIFT</strong></em> and I'll send you a time.</p>
-            <span className="cta">Message me SHIFT</span>
+            <p><strong>Haven't booked yet?</strong></p>
+            <span className="cta">BOOK HERE</span>
           </div>
           <div className="stack">
             <h3>Before we speak, have a think about…</h3>
