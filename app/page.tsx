@@ -135,7 +135,7 @@ export default function Page() {
           <p className="eyebrow">Online strength coaching for women 40+</p>
           <h1><span>The Strength</span><span>Shift</span></h1>
           <p className="tagline">Feminine power over 40</p>
-          <svg className="squiggle" aria-hidden="true"><use href="#sq" /></svg>
+       
           <p className="lead narrow">Stop wasting effort in the gym and start getting strong. A plan built for you, nutrition that fits real life, a coach in your pocket every day, and a squad of women who get it.</p>
           <div className="welcome">
             <div><b>Just booked a call?</b><p>Thank you. I can't wait to chat. Have a read through this page before we speak so you know exactly how it all works, then scroll to the bottom for a few things to think about before our call.</p></div>
@@ -163,7 +163,7 @@ export default function Page() {
         <div className="wrap">
           <div className="stack narrow">
             <p className="eyebrow">What actually is online coaching?</p>
-            <h2>It's a personal trainer in your pocket</h2>
+            
             <p className="lead">Lots of women tell me they don't really understand online coaching. That's completely fair. Here's the simple version.</p>
           </div>
           <div className="stack">
@@ -276,22 +276,7 @@ export default function Page() {
         </div>
       </section>
 
-      {/* TIMELINE + SHIFT */}
-      <section className="band paper" id="journey">
-        <div className="wrap">
-          <div className="stack narrow">            
-            <h2>What the shift looks like</h2>
-            <p>Every woman is different, but this is the path most of my clients follow.</p>
-          </div>
-          <ol className="months">
-            <li><b>Plan &amp; routine</b><p>You've got a plan, a routine and better technique. Energy starts to lift.</p></li>
-            <li><b>Strength gains</b><p>The numbers start going up. Many clients notice better sleep and mood.</p></li>
-            <li><b>Visible change</b><p>Clothes fit differently and the habits are sticking without a fight.</p></li>
-            <li><b>Strong &amp; independent</b><p>Strong, confident, and you understand what works for your body.</p></li>
-          </ol>
-          
-        </div>
-      </section>
+
 
       {/* RESULTS */}
       <section className="band sky" id="results">
