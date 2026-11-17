@@ -31,7 +31,34 @@ export const clients: Client[] = [
     paragraphs: [
       '“It’s the first proper weekend away in many years that I’ve not felt uncomfortable, overweight, unfit, self conscious! I danced for 3 days straight, outlasted everyone and did 73,000 steps. I could never have done this before.”',
     ],
-     image: { src: '/clients/cara.png', width: 534, height: 1208 },
+    image: { src: '/clients/cara.png', width: 534, height: 1208 },
+  },
+
+  {
+    name: 'Gwen',
+    headline: 'In her 50\'s, 6kg down in 6 months in her latest fat loss phase.',
+    paragraphs: [
+      '“Her energy levels have stayed HIGH. Because fat loss shouldn\'t leave you feeling like absolute sh*t. And does she spend the summer eating lettuce and turning down every social occasion? Absolutely f*cking not. She went to IBIZA. She partied. She enjoyed herself. She lived her life.”',
+    ],
+    image: { src: '/clients/gwen.png', width: 534, height: 1208 },
+  },
+
+  {
+    name: 'Emma',
+    headline: 'Seeing the benefits of being consistent - feeling stronger and just look at those shoulders!',
+    paragraphs: [
+      '“Emma joined the team in March. Her motivation was a family holiday in August. Well....I think she crushed it! When I asked Emma what differences she had noticed just 12 weeks into the programme this is what she said: Increased strength Better arm definition More energy Clearer focus in the gym”',
+    ],
+    image: { src: '/clients/emma.png', width: 534, height: 1208 },
+  },
+
+    {
+    name: 'Lou',
+    headline: 'From only knowing cardio to loving her gym sessions and seeing the definition she has wanted for years.',
+    paragraphs: [
+      '“When I first joined with Rach I lacked any structure , didn\'t eat enough , had some motivation to be active but all I knew was running. I wanted to change my mindset, feel better in myself and follow a plan I knew would give me results ! Im getting married in December and I wanted good back shoulders and arms for wedding dress . I can already see a change but seeing photos also helps this. Thank you”',
+    ],
+    image: { src: '/clients/lou.png', width: 534, height: 1208 },
   },
 
   {
@@ -40,16 +67,9 @@ export const clients: Client[] = [
     paragraphs: [
       '“I am SO GLAD I signed up. I feel like a weight has been lifted (pun absolutely intended) knowing I’m not winging it, that you have my back. All I have to do is feed back honestly and put in the work.”',
     ],
-     image: { src: '/clients/kirsten.png', width: 534, height: 1208 },
+    image: { src: '/clients/kirsten.png', width: 534, height: 1208 },
   },
 
-  {
-    name: 'Catherine',
-    headline: 'Wasn’t convinced she was capable of changing. We proved that wrong.',
-    paragraphs: [
-      '“What’s really changed is my ability not to give up after a bad week or a bad gym session, and I’ve even gone when I’ve not wanted to. That’s been an incredible change for me.”',
-    ],
-     image: { src: '/clients/catherine.png', width: 534, height: 1208 },
-  },
+
 
 ];

@@ -2,6 +2,7 @@ import React from 'react';
 import Styles from '../Styles';
 import ClientsStyles from './ClientsStyles';
 import ClientBlock from './ClientBlock';
+import ClientsPhotoWall from './ClientsPhotoWall';
 
 import { clients } from './clients-data';
 
@@ -34,7 +35,10 @@ export default function ClientsPage() {
         </div>
       </main>
 
-   
+      <ClientsPhotoWall />
+
+
+
     </>
   );
 }
