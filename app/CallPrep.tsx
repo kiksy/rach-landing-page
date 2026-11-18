@@ -9,7 +9,9 @@ export default function CallPrep() {
           <h2>Your call with me</h2>
           <p>It's a relaxed chat about where you are now, where you want to be, and whether The Strength Shift is the right fit for you. Come as you are.</p>
           <p><strong>Haven't booked yet?</strong></p>
-          <span className="cta">BOOK HERE</span>
+          <a href="https://calendly.com/rachel_strength_beyond_the_surface/45min-chat">
+            <span className="cta">BOOK HERE</span>
+          </a>
         </div>
         <div className="stack">
           <h3>Before we speak, have a think about…</h3>
