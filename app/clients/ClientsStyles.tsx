@@ -17,7 +17,7 @@ const css = `
     overflow:hidden;
     display:grid;
     grid-template-columns:1fr;
-    padding:6cqi 6cqi 0;
+    padding:5cqi 5cqi 0;
     color:#464043;
   }
   .client__name{
@@ -29,14 +29,14 @@ const css = `
     letter-spacing:0;
     margin:0;
     /* shrinks long names so they stay inside the block */
-    font-size:min(26cqi, calc(148cqi / var(--n)));
+    font-size:min(21cqi, calc(120cqi / var(--n)));
   }
   .client__body{
     display:grid;
     gap:1.1em;
     margin-top:5cqi;
     padding-bottom:6cqi;
-    font-size:clamp(1rem, 3.4cqi, 1.35rem);
+    font-size:clamp(.9rem, 3cqi, 1.15rem);
     line-height:1.25;
     font-weight:500;
   }
@@ -52,7 +52,7 @@ const css = `
 
   @container (min-width:520px){
     .client:not(.client--noimg){
-      grid-template-columns:1fr 42cqi;
+      grid-template-columns:1fr 38cqi;
       column-gap:2cqi;
       padding-bottom:0;
     }

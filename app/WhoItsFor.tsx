@@ -1,15 +1,20 @@
 import React from 'react';
 
+const css = `
+  .panel{background:var(--blush);border-radius:24px;padding:clamp(20px,3vw,32px);align-content:start}
+`;
+
 export default function WhoItsFor() {
   return (
     <section className="band paper" id="who">
+      <style dangerouslySetInnerHTML={{ __html: css }} />
       <div className="wrap">
         <div className="stack narrow">
           <p className="eyebrow">Who it's for</p>
           <h2>Is this you?</h2>
         </div>
         <div className="two">
-          <div className="stack">
+          <div className="stack panel">
             <h3>This is for you if…</h3>
             <ul className="ticks">
               <li>You're 40+ and you've put everyone else first for years. You're ready for something that's about you.</li>
@@ -20,7 +25,7 @@ export default function WhoItsFor() {
               <li>You want to feel strong, capable and like yourself again, for the next 40 years, not just the next 6 weeks.</li>
             </ul>
           </div>
-          <div className="stack">
+          <div className="stack panel">
             <h3>It's probably not for you if…</h3>
             <ul className="ticks crosses">
               <li>You want a quick fix before a holiday and then to stop.</li>

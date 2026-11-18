@@ -11,7 +11,7 @@ export default function ClientBlock({ client }: { client: Client }) {
         className={`client${image ? '' : ' client--noimg'}`}
         style={{ ['--n' as string]: name.length }}
       >
-        <h2 className="client__name">{name}</h2>
+        <h3 className="client__name">{name}</h3>
 
         <div className="client__body">
           <p className="client__headline">{headline}</p>
