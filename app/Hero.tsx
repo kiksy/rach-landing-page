@@ -49,8 +49,8 @@ export default function Hero() {
 
         <div className="hx__body">
           <div className="hx__copy">
-            <p>The strength-first approach to becoming stronger, leaner and unapologetically powerful - the woman you have always wanted to become.</p>
-            <p>Feminine power over 40.</p>
+            <h2>The strength-first approach to becoming stronger, leaner and unapologetically powerful - the woman you have always wanted to become.</h2>
+            <h2>Feminine power over 40.</h2>
           </div>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
