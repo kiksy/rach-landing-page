@@ -6,6 +6,7 @@ import OnlineCoaching from './OnlineCoaching';
 import WhoItsFor from './WhoItsFor';
 import WhatYouGet from './WhatYouGet';
 import MeetTheCoaches from './MeetTheCoaches';
+import ThreePillars from './ThreePillars';
 import Results from './Results';
 import Clients from './clients/page';
 import Faq from './Faq';
@@ -36,6 +37,7 @@ export default function Page() {
       <OnlineCoaching />
       <WhoItsFor />
       <WhatYouGet />
+      <ThreePillars />
       <MeetTheCoaches />
       <Results />
       <Clients />

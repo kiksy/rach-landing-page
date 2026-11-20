@@ -94,9 +94,15 @@ const css = `
         .q blockquote{margin:0;font-style:italic;font-weight:500;color:var(--ink-soft)}
         .note{font-size:.9rem;color:var(--ink-soft);font-style:italic}
 
-        .faq{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:16px}
-        .faq article{background:var(--card);border-radius:20px;padding:24px;display:grid;gap:10px;align-content:start;min-width:0}
-        .faq h3{text-transform:none;font-size:1.25rem;letter-spacing:0;line-height:1.2}
+        .faq{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:16px;align-items:start}
+        .faq details{background:var(--card);border-radius:20px;min-width:0}
+        .faq summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 24px;border-radius:20px}
+        .faq summary::-webkit-details-marker{display:none}
+        .faq summary:focus-visible{outline:3px solid var(--orange);outline-offset:2px}
+        .faq summary::after{content:"";flex:none;width:28px;height:28px;border-radius:50%;background:linear-gradient(var(--orange-ink),var(--orange-ink)) center/12px 2px no-repeat,linear-gradient(var(--orange-ink),var(--orange-ink)) center/2px 12px no-repeat,var(--orange);transition:background-size .2s}
+        .faq details[open] summary::after{background-size:12px 2px,2px 0,auto}
+        .faq h3{flex:1;text-transform:none;font-size:1.25rem;letter-spacing:0;line-height:1.2}
+        .faq .answer{padding:0 24px 24px;display:grid;gap:10px}
         .faq p{color:var(--ink-soft)}
         .faq .feature{border:3px solid var(--orange)}
         .compare{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:6px}
@@ -110,6 +116,12 @@ const css = `
         .prep li{counter-increment:p;padding-left:44px;position:relative}
         .prep li::before{content:counter(p);position:absolute;left:0;top:-2px;width:30px;height:30px;border-radius:50%;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-weight:700;font-size:.9rem}
         footer .wrap{padding-block:32px;font-size:.85rem;color:var(--ink-soft);gap:6px}
+
+        /* Paragraph consistency: every <p> is 1rem. !important so the per-section
+           <style> blocks (which set their own p sizes) can't override it. */
+        p{font-size:1rem !important}
+        /* One weight for paragraphs, except the deliberately bold ones */
+        p:not(.eyebrow):not(.client__headline){font-weight:400 !important}
       `;
 
 export default function Styles() {
